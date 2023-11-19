@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 
-interface ScreenSize {
+interface ScreenSize { //creacion de la interfance
   height: number;
   width: number;
 }
 
-const useScreenSize = (): ScreenSize => {
-  const isClient = typeof window === 'object';
+const useScreenSize = (): ScreenSize => { //creamos el hook, declarando que devuelve un objeto de tipo ScreenSize
+  const isClient = typeof window === 'object'; 
 
   const [size, setSize] = useState<ScreenSize>({
     width: isClient ? window.innerWidth : 0,
@@ -29,8 +29,9 @@ const useScreenSize = (): ScreenSize => {
     }
   }, [isClient])
 
-  const { height, width } = size
-  return { height, width }
+  //const { height, width } = size
+  //return { height, width }
+  return size
 }
 
 export default useScreenSize;

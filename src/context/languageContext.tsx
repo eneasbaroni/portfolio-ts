@@ -33,6 +33,7 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
 };
 
 // Crear un hook para acceder al contexto
+// eslint-disable-next-line react-refresh/only-export-components
 export const useLanguage = (): LanguageContexType => {
   const context = useContext(LanguageContext);
 
