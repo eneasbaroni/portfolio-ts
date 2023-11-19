@@ -1,0 +1,93 @@
+.footer {  
+  width: 100%; 
+  height: 1.5rem;  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.langContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.languageSelector {
+  width: auto !important;
+  margin: 0 0.1rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.languageSelector:hover {
+  color: var(--fourth-color);
+}
+
+@media screen and (max-width: 992px) {
+  .languageSelector { 
+    font-size: 0.6rem;
+  }  
+}
+
+@media screen and (max-width: 576px) {
+  .languageSelector { 
+    font-size: 0.6rem;
+  }  
+  .footer {     
+    height: auto;
+    width: 100vw;
+    margin-left: -1.5rem; 
+    background-color: var(--second-bg);     
+  }
+}
+
+/* Mobile Footer */
+
+.mobileFooter {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;  
+  justify-content: space-between;
+  width: 100%;
+  background-color: var(--second-bg);
+}
+
+.mobileFooter img {
+  width: 20vw;
+  height: 20vw;  
+  padding: 0.5rem 0.5rem;
+  margin: 2rem auto;
+  object-fit: contain;
+  filter: invert(99%) sepia(1%) saturate(0%) hue-rotate(18deg) brightness(106%) contrast(101%);
+  background-color: var(--second-bg);
+  border-radius: 50%;
+}
+
+.mobileFooter div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobileFooterLink {
+  text-align: center;
+}
+
+.mobileFooter p, .mobileFooter a {
+  font-size: 1rem;  
+  font-weight: 300;
+  margin: 0.2rem 0;
+  text-align: center;
+  color: var(--main-bg);
+}
+
+.footerRights {
+  width: 80%;
+  margin: 0 auto;
+  border-top: 1px solid var(--second-color);
+}
+
+
+
+
