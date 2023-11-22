@@ -8,7 +8,7 @@ interface Props {
     description: string
     url: string
     web: string
-    technologies: [string]
+    technologies: string[]
   }
   id: string
 }
