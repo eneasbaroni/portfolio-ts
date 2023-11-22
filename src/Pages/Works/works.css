@@ -1,0 +1,147 @@
+.worksContainer {
+  grid-column: auto / span 12;  
+}
+
+.work {  
+  background-size: cover;
+  background-position: 50% -120%;
+  background-repeat: no-repeat;
+  transition: all 0.5s ease-in-out;
+  width: 99.1vw;
+  margin-left: -2.5rem;
+  padding-inline: 2.5rem;
+  padding: 2.5rem 0;
+  padding: 2.5rem 2.5rem;
+  border-bottom: 1px solid var(--main-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 11vw;
+}
+
+.work:hover {
+  background-position: 50% 50%;
+  height: 400px;
+}
+
+.workInfo{
+  text-align: end;  
+}
+
+.workInfo p, .workInfo a {
+  text-align: end;
+  font-size: 1rem;   
+  letter-spacing: -0.03em;
+  line-height: 1.1em;
+  margin-left: 0.4vw; 
+  /* padding-right: 1rem;  */
+}
+
+.workInfo .techImg{
+  text-align: end; 
+  
+  & img {
+    height: 35px;
+    width: auto;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+  }
+}
+
+
+
+.worksContainer .h2 {     
+  width: auto !important;
+  display: inline-block !important;
+  position: relative;  
+}
+
+.worksContainer .h2:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--main-color);
+  transform-origin: bottom right;
+  transition: transform 0.5s ease-out;
+}
+
+.worksContainer .h2:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.work .h2 {
+  margin-top: 0.5rem;
+} 
+
+.workLink { 
+  display: inline-block !important;
+  position: relative;  
+}
+
+.workLink:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--main-color);
+  transform-origin: bottom right;
+  transition: transform 0.5s ease-out;
+}
+
+.workLink:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+@media screen and (max-width: 768px) { 
+  
+  .work {      
+    background-position: 50% 200px;
+    margin-left: -1.5rem;
+    padding-inline: 1.5rem;
+    padding: 1.5rem 0;
+    padding: 1.5rem 1.5rem;      
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 200px;    
+  }
+
+  .work:hover {    
+    height: 250px;
+  }  
+
+  .worksContainer .h2 {
+    cursor: auto;
+    font-size: 8vw !important;
+  } 
+
+  .workInfo p, .workInfo .workLink,  .workInfo .techImg{
+    text-align: start;      
+    width: 100% !important;
+    font-size: calc(8px + 1.5vw) !important;    
+  } 
+
+  .workInfo .techImg img {
+    height: 30px;
+    
+  }
+  
+}
+
+@media screen and (max-width: 576px) { 
+  
+  .workInfo p, .workInfo .workLink {
+    font-size: calc(8px + 2.5vw) !important;    
+  } 
+
+}
