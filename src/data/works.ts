@@ -29,7 +29,7 @@ const esp = [
     description: "Portfolio Web para Noelia Torres",
     url: "/images/noe-2.png",
     web: "https://noeliatorres.com.ar/",
-    technologies: ['astro']
+    technologies: ['astro', 'typescript']
   }, 
   {    
     title: "M-R Constr.",
@@ -104,7 +104,7 @@ const eng = [
     description: "Web Portfolio for Noelia Torres",
     url: "/images/noe-2.png",
     web: "https://noeliatorres.com.ar/",
-    technologies: ['astro']
+    technologies: ['astro', 'typescript']
   }, 
   {    
     title: "M-R Constr.",
