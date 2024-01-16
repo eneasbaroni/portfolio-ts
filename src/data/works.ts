@@ -21,7 +21,7 @@ const esp = [
     description: "Caso de Estudio",
     url: "/images/Dart-2.png",
     web: "https://dart-ceramica.netlify.app/",
-    technologies: ['react', 'node']
+    technologies: ['angular', 'node']
   }, 
   {    
     title: "Noe CM",
@@ -96,7 +96,7 @@ const eng = [
     description: "Case Study",
     url: "/images/Dart-2.png",
     web: "https://dart-ceramica.netlify.app/",
-    technologies: ['react', 'node']
+    technologies: ['angular', 'node']
   }, 
   {    
     title: "Noe CM",
