@@ -44,10 +44,10 @@ const Contact = () => {
               <p className='mainText'>or connect with me on socials</p>
           }
           
-          <div><a className="mediaLink h1" href="https://www.linkedin.com/in/eneasbaroni" target="_blank" rel="noreferrer">LINKEDIN</a></div>
-          <div><a className="mediaLink h1" href="https://wa.me/+5493512110423" target="_blank" rel="noreferrer">WHATSAPP</a></div>
-          <div><a className="mediaLink h1" href="https://github.com/eneasbaroni" target="_blank" rel="noreferrer">GITHUB</a></div>
-          <div><a className="mediaLink h1" href="https://www.instagram.com/mr_eneas/" target="_blank" rel="noreferrer">INSTAGRAM</a></div>
+          <div><a className="mediaLink h1" href="https://www.linkedin.com/in/eneasbaroni" target="_blank" rel="noreferrer"><span>L</span>INKEDIN</a></div>
+          <div><a className="mediaLink h1" href="https://wa.me/+5493512110423" target="_blank" rel="noreferrer">WHA<span>T</span>SAPP</a></div>
+          <div><a className="mediaLink h1" href="https://github.com/eneasbaroni" target="_blank" rel="noreferrer"><span>G</span>ITHUB</a></div>
+          <div><a className="mediaLink h1" href="https://www.instagram.com/mr_eneas/" target="_blank" rel="noreferrer">INSTAGR<span>A</span>M</a></div>
           {lang === "esp"
             ?
               <a className="cv" href="/docs/CV_BARONI_Eneas.pdf" target="_blank" rel="noreferrer" download>

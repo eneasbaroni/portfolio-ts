@@ -42,10 +42,10 @@ const MobileMenu = ({handleClose}: MobileMenuProps) => {
               <h3 onClick={setCloseMobileMenu}>X</h3>       
             </div>
             <div className='mobileLinks'>
-              <NavLink to="/"  className="navItem" onClick={setCloseMobileMenu}>Inicio</NavLink>
-              <NavLink to="/about"  className="navItem"  onClick={setCloseMobileMenu}>Sobre mi</NavLink>
-              <NavLink to="/works"  className="navItem"  onClick={setCloseMobileMenu}>Trabajos</NavLink>
-              <NavLink to="/contact"  className="navItem" onClick={setCloseMobileMenu}>Contacto</NavLink>
+              <NavLink to="/"  className="navItem" onClick={setCloseMobileMenu}><span>I</span>nicio</NavLink>
+              <NavLink to="/about"  className="navItem"  onClick={setCloseMobileMenu}>Sobre <span>M</span>i</NavLink>
+              <NavLink to="/works"  className="navItem"  onClick={setCloseMobileMenu}><span>T</span>rabajos</NavLink>
+              <NavLink to="/contact"  className="navItem" onClick={setCloseMobileMenu}>Contact<span>O</span></NavLink>
             </div>     
           </div>
         :
@@ -56,10 +56,10 @@ const MobileMenu = ({handleClose}: MobileMenuProps) => {
             </div>
             <div className='mobileLinks'>
               <h3 onClick={setCloseMobileMenu}>X</h3>                 
-              <NavLink to="/"  className="navItem" onClick={setCloseMobileMenu} >HOME</NavLink>
-              <NavLink to="/about"  className="navItem" onClick={setCloseMobileMenu}>ABOUT</NavLink>
-              <NavLink to="/works"  className="navItem" onClick={setCloseMobileMenu}>WORKS</NavLink>
-              <NavLink to="/contact"  className="navItem" onClick={setCloseMobileMenu}>CONTACT</NavLink>
+              <NavLink to="/"  className="navItem" onClick={setCloseMobileMenu} ><span>H</span>OME</NavLink>
+              <NavLink to="/about"  className="navItem" onClick={setCloseMobileMenu}>AB<span>O</span>UT</NavLink>
+              <NavLink to="/works"  className="navItem" onClick={setCloseMobileMenu}><span>W</span>ORKS</NavLink>
+              <NavLink to="/contact"  className="navItem" onClick={setCloseMobileMenu}>CONTAC<span>T</span></NavLink>
             </div>   
           </div>
       }

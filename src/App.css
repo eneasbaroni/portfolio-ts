@@ -50,6 +50,10 @@
   font-family: 'Clash-Medium';  
   src: url("./assets/ClashDisplay-Medium.otf");
 }
+@font-face {
+  font-family: 'Nautica';  
+  src: url("./assets/Nautica.otf");
+}
 
 
 * {
@@ -111,9 +115,16 @@ p, label, input, .form-control {
   font-family: 'n27', sans-serif;
   font-family: 'White-Inktra', sans-serif;
   font-family: 'Clash-Medium', sans-serif;
-  font-size: 8vw; 
+  font-size: 7.7vw; 
   line-height: 1em;
   font-weight: 400; 
+
+  span {
+    font-family: 'Nautica', sans-serif;
+    font-size: 10vw; 
+    display: inline;
+    margin-right: 1vw;
+  }
 }
 
 .h2 {  

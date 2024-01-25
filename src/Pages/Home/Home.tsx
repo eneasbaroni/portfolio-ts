@@ -38,15 +38,15 @@ const Home = () => {
                 <div>                  
                   <h1 className='h1'>DESARROLLADOR</h1>
                   <h1 className='h1'>WEB Y</h1>
-                  <h1 className='h1'>DISEÑADOR </h1>
-                  <h1 className='h1 text-end'>GRAFICO DE</h1>
-                  <h1 className='h1 text-end'>CORDOBA,</h1>
+                  <h1 className='h1'><span>D</span>ISEÑADOR </h1>
+                  <h1 className='h1 text-end'><span>G</span>RAFICO DE</h1>
+                  <h1 className='h1 text-center'>CORDOBA,</h1>
                   <h1 className='h1'> ARGENTINA.</h1>
                 </div>
               : 
                 <div>
                   <h1 className='h1'>DESARROLLADOR WEB</h1>
-                  <h1 className='h1 text-end'>Y DISEÑADOR GRAFICO</h1>
+                  <h1 className='h1 text-end'>Y <span>D</span>ISEÑADOR <span>G</span>RAFICO</h1>
                   <h1 className='h1 text-center'>DE CORDOBA,</h1>
                   <h1 className='h1'> ARGENTINA.</h1>
                 </div>
@@ -61,15 +61,15 @@ const Home = () => {
               ? 
                 <div>
                   <h1 className='h1'>WEB DEVELOPER </h1>
-                  <h1 className='h1'>& GRAPHIC</h1>
-                  <h1 className='h1 text-end'>DESIGNER FROM</h1>                  
+                  <h1 className='h1'>& <span>G</span>RAPHIC</h1>
+                  <h1 className='h1 text-end'><span>D</span>ESIGNER FROM</h1>                  
                   <h1 className='h1 text-end'>CORDOBA,</h1>
                   <h1 className='h1'>ARGENTINA.</h1>
                 </div>  
               :
                 <div>
                   <h1 className='h1'>WEB DEVELOPER </h1>
-                  <h1 className='h1 text-end'>& GRAPHIC DESIGNER</h1>
+                  <h1 className='h1 text-end'>& <span>G</span>RAPHIC <span>D</span>ESIGNER</h1>
                   <h1 className='h1 text-center'>BASED IN CORDOBA,</h1>
                   <h1 className='h1'>ARGENTINA.</h1>
                 </div>  
