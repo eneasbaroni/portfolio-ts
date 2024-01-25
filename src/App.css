@@ -183,7 +183,11 @@ input {
 
 @media screen and (max-width: 576px) {
   .h1 {     
-    font-size: 10vw;      
+    font-size: 10vw;     
+    
+    span {
+      font-size: 12vw;       
+    } 
   }  
 
   #home h1 {
