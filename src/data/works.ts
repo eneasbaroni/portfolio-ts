@@ -1,5 +1,13 @@
 const esp = [
   {    
+    title: "Ceci Torres",
+    type: "2024/Freelance - Diseño y Desarrollo",
+    description: "Sitio Web para Cecilia Torres",
+    url: "/images/ceci.png",
+    web: "https://ceciliatorres.com.ar/",
+    technologies: ['next', 'typescript']
+  },
+  {    
     title: "Modus",
     type: "2023/Freelance - Desarrollo",
     description: "Sitio Web Institucional para Modus",
@@ -54,14 +62,6 @@ const esp = [
     url: "/images/woodworth-2.png",
     web: "https://woodworth.netlify.app/",
     technologies: ['react']
-  },
-  {    
-    title: "Le Cadre",
-    type: "2022/Personal - Diseño y Desarrollo",
-    description: "Proyecto Final para curso de Coderhouse",
-    url: "/images/leCadre-2.png",
-    web: "https://eneasbaroni.github.io/LeCadre-Baroni/",
-    technologies: ['javascript']
   },  
   {    
     title: "Picante",
@@ -74,6 +74,14 @@ const esp = [
 ]
 
 const eng = [
+  {    
+    title: "Ceci Torres",
+    type: "2024/Freelance - Design & Development",
+    description: "Institutional Web site for Cecilia Torres",
+    url: "/images/ceci.png",
+    web: "https://ceciliatorres.com.ar/",
+    technologies: ['next', 'typescript']
+  },
   {    
     title: "Modus",
     type: "2023/Freelance - Design",
@@ -129,15 +137,7 @@ const eng = [
     url: "/images/woodworth-2.png",
     web: "https://woodworth.netlify.app/",
     technologies: ['react']
-  },
-  {    
-    title: "Le Cadre",
-    type: "2022/Personal - Design & Development",
-    description: "Coderhouse Institute final project",
-    url: "/images/leCadre-2.png",
-    web: "https://eneasbaroni.github.io/LeCadre-Baroni/",
-    technologies: ['javascript']
-  },  
+  }, 
   {    
     title: "Picante",
     type: "2021/Freelance - Design & Development",
